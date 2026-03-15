@@ -82,3 +82,12 @@ Resources Used
 • 	Azure Private Link documentation
 • 	Azure Storage Account networking documentation
 • 	Azure Private DNS Zones
+Security Design Considerations
+
+Eliminated public attack surface by disabling Storage public endpoints
+
+Restricted access to private VNet network boundary
+
+Used DNS isolation to prevent external resolution
+
+Applied NSG rules to maintain subnet-level security controls
